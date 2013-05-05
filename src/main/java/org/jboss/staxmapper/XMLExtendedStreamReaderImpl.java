@@ -31,9 +31,11 @@ import java.util.List;
 
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
-import javax.xml.stream.Location;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
+
+import org.xml.stream.Location;
+import org.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamReader;
+
 
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>

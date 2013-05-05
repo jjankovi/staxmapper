@@ -22,7 +22,9 @@
 
 package org.jboss.staxmapper;
 
-import javax.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamException;
+
+
 
 /**
  * A reader which pulls an object out of some XML element and appends it

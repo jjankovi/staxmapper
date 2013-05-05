@@ -22,15 +22,18 @@
 
 package org.jboss.staxmapper;
 
+import static org.xml.stream.XMLStreamConstants.END_DOCUMENT;
+import static org.xml.stream.XMLStreamConstants.START_DOCUMENT;
+import static org.xml.stream.XMLStreamConstants.START_ELEMENT;
+
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 import javax.xml.namespace.QName;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-import javax.xml.stream.XMLStreamWriter;
 
-import static javax.xml.stream.XMLStreamConstants.*;
+import org.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamReader;
+import org.xml.stream.XMLStreamWriter;
 
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>

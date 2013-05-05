@@ -24,8 +24,10 @@ package org.jboss.staxmapper;
 
 import java.util.List;
 
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
+import org.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamReader;
+
+
 
 /**
  * An XML stream reader that can read nested {@code <xs:any>} content using a registered set of root elements.

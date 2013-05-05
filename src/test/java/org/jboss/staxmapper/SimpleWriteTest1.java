@@ -24,8 +24,8 @@ package org.jboss.staxmapper;
 
 import java.io.StringWriter;
 
-import javax.xml.stream.XMLOutputFactory;
-import javax.xml.stream.XMLStreamException;
+import org.xml.stream.XMLOutputFactory;
+import org.xml.stream.XMLStreamException;
 
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>

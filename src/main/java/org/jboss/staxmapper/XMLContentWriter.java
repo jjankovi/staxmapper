@@ -22,7 +22,9 @@
 
 package org.jboss.staxmapper;
 
-import javax.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamException;
+
+
 
 /**
  * A writer for some XML content.

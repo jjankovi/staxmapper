@@ -23,9 +23,11 @@
 package org.jboss.staxmapper;
 
 import javax.xml.namespace.QName;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-import javax.xml.stream.XMLStreamWriter;
+
+import org.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamReader;
+import org.xml.stream.XMLStreamWriter;
+
 
 /**
  * An XML mapper.  Allows the creation of extensible streaming XML parsers.

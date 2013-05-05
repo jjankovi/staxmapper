@@ -27,9 +27,11 @@ import java.util.ArrayDeque;
 import java.util.Iterator;
 
 import javax.xml.namespace.NamespaceContext;
-import javax.xml.stream.XMLStreamConstants;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamWriter;
+
+import org.xml.stream.XMLStreamConstants;
+import org.xml.stream.XMLStreamException;
+import org.xml.stream.XMLStreamWriter;
+
 
 /**
  * An XML stream writer which nicely formats the XML for configuration files.

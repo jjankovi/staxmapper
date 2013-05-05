@@ -22,18 +22,17 @@
 
 package org.jboss.staxmapper;
 
-import static javax.xml.stream.XMLStreamConstants.COMMENT;
-import static javax.xml.stream.XMLStreamConstants.END_ELEMENT;
-import static javax.xml.stream.XMLStreamConstants.START_ELEMENT;
+import static org.xml.stream.XMLStreamConstants.COMMENT;
+import static org.xml.stream.XMLStreamConstants.END_ELEMENT;
+import static org.xml.stream.XMLStreamConstants.START_ELEMENT;
 
 import java.io.StringReader;
 
-import javax.xml.XMLConstants;
 import javax.xml.namespace.QName;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamConstants;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
+
+import org.xml.stream.XMLInputFactory;
+import org.xml.stream.XMLStreamException;
+
 
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>
